@@ -16,7 +16,7 @@ a {
 
 
 .gradient__bg {
-  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 50%, rgba(4, 12, 24, 1) 100%);
+  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 }
 
 .gradient__text {
@@ -82,5 +82,17 @@ a {
 
   .section__margin {
     margin: 4rem 2rem;
+  }
+}
+
+
+
+@media screen and (min-width: 1500px) {
+  .section__padding {
+    padding: 8rem 10rem;
+  }
+
+  .section__margin {
+    margin: 8rem 10rem;
   }
 }
